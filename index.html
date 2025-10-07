@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is my basic portfolio page">
+    <meta name="author" content="Sotoku Tomotsugu">
+    <title>Sotoku Tomotsugu</title>
+    <link rel="icon" href="assets/images/profile.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/css/index.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#7952b3">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Sotoku Tomotsugu</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link" href="https://www.linkedin.com/in/sotoku-tomotsugu/">LinkedIn</a>
+                </nav>
+            </div>
+        </header>
+        <main class="px-3">
+            <img src="assets/images/profile.jpg" class="rounded-circle my-3" width="200px">
+            <p class="lead">
+                Cybersecurity student at the University of Texas at San Antonio.</br>
+                5+ years of experience working as an application engineer.</br>
+                Enjoy writing programs to do cool things such as automation.</br>
+                Love learning how things work under the hood.</br>
+                Studying to pass OSCP by 2027 followed by CISSP.</br>
+            </p>
+            <!-- Button trigger modal -->
+            <p class="lead pt-2">
+                <button type="button" class="btn btn-secondary fw-bold border-white bg-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View Resume</button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <embed src="assets/documents/Resume_Sotoku_Tomotsugu.pdf#zoom=80" type="application/pdf" width="100%" height="500px" />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="mt-auto text-white-50">
+            <p>Contact <a href="mailto:sotoku.tomotsugu@my.utsa.edu" class="text-white mail-link">Sotoku Tomotsugu</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
